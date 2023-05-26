@@ -200,11 +200,23 @@ input::-webkit-inner-spin-button {
 /* main header end */
 /* banner start */
 .pa-banner {
-  padding: 200px 0px 185px;
+  /*padding: 200px 0px 185px;
   background-image: url("./BackGround.jpg");
+
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
+
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;*/
+  background: url("../images/BackGround.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  min-height: 650px;
 }
 .pa-banner-text h4 {
   position: relative;
@@ -214,6 +226,13 @@ input::-webkit-inner-spin-button {
   z-index: 1;
   color: #fff;
   letter-spacing: 1px;
+  justify-content: center;
+  display: flex;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
 }
 .pa-banner-text h4:after {
   position: absolute;
